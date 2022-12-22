@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
     <NavBar/>
-    <ItemListContainer/>
+    <ItemListContainer title = {"Welcome to the best signature pastry"}/>
     </div>
   );
 }
