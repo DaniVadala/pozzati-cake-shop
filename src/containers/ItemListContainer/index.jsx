@@ -3,10 +3,10 @@ import Item from '../../components/Item';
 import './styles.css'
 
 
-const ItemListContainer = ({title}) => {
+const ItemListContainer = ({greeting}) => {
   return (
     <>
-    <h3 style={{marginBottom: '30px', marginTop: '30px', }} className="card-title">{title}</h3>
+    <h3 style={{marginBottom: '30px', marginTop: '30px', }} className="card-title">{greeting}</h3>
     <div className='item-list-container'>
        <Item title = {"Gold plated"} cakeType = {"https://www.shutterstock.com/image-illustration/big-white-gold-luxury-cake-260nw-1227473863.jpg"}/>
        <Item title = {"Cherry mousse"} cakeType = {"https://theloopywhisk.com/wp-content/uploads/2018/11/Vegan-Chocolate-Truffle-Cake_730px-13.jpg.webp"}/>
